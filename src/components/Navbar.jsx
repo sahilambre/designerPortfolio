@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 const Navbar = () => {
   return (
@@ -10,7 +11,7 @@ const Navbar = () => {
         {["About", "Projects", "Work", "Contact"].map((item, index) => (
           <a
             key={index}
-            className="text-xl  md:text-xl lg:text-xl font-light font-['Founders_Grotesk_Text']"
+            className="text-xl  md:text-xl lg:text-xl font-light font-['Founders_Grotesk_Text'] cursor-pointer"
           >
             {item}
           </a>
