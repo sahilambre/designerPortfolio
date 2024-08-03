@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { FiArrowDown } from "react-icons/fi";
 
 const About = () => {
-  const filePath = "/public/resume.pdf"; // Update path as needed
+  const filePath = "/resume.pdf";
 
   const downloadResume = () => {
     fetch(filePath)
