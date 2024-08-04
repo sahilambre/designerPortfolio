@@ -76,7 +76,7 @@ const Experience = () => {
           }}
           transition={{ duration: 1.5, ease: "easeOut" }}
         >
-          Experience
+          Experience.
         </motion.h1>
       </div>
       <div className="w-full flex flex-col lg:flex-row justify-center items-center py-10 space-y-10 lg:space-y-0 lg:space-x-20">
