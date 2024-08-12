@@ -24,10 +24,10 @@ const LandingPage = () => {
       <div className="flex-grow flex flex-col justify-center items-center px-20">
         <div className="masker">
           <motion.h1
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
+            initial={{ opacity: 0, y: 60 }}
+            animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: "easeIn" }}
-            whileHover={{ scale: 1.1 }}
+            // whileHover={{ scale: 1.1 }}
             className="text-4xl lg:text-6xl text-center leading-none font-['Founders_Grotesk_Text'] cursor-progress"
           >
             Hello
@@ -35,10 +35,10 @@ const LandingPage = () => {
         </div>
         <div className="masker mt-4">
           <motion.h1
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
+            initial={{ opacity: 1, scale: 2 }}
+            animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1, ease: "easeIn" }}
-            whileHover={{ scale: 1.2 }}
+            // whileHover={{ scale: 1.2 }}
             className="text-6xl lg:text-9xl text-center leading-none font-['Founders_Grotesk_Text'] cursor-progress "
           >
             Sahil Ambre.
@@ -46,10 +46,10 @@ const LandingPage = () => {
         </div>
         <div className="masker mt-4">
           <motion.h1
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
+            initial={{ opacity: 0, y: -60 }}
+            animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: "easeIn" }}
-            whileHover={{ scale: 1.1 }}
+            // whileHover={{ scale: 1.1 }}
             className="text-3xl lg:text-6xl text-center leading-none font-['Founders_Grotesk_Text'] cursor-progress"
           >
             Software Developer

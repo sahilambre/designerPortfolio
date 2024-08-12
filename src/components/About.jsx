@@ -38,7 +38,7 @@ const About = () => {
       data-scroll-speed="-.1"
       className="w-full p-20 bg-pink-500 h-200 rounded-tl-3xl rounded-tr-3xl text-white"
     >
-      <h1 className="font-['Poppins'] text-[4vw] leading-[4.5vw] tracking-tight">
+      <h1 className="font-['Poppins'] text-[4vw] leading-[6vw] tracking-tight">
         Welcome to my corner of the web! I'm a{" "}
         <motion.span
           initial={{ textDecoration: "none" }}
@@ -72,7 +72,7 @@ const About = () => {
       </h1>
       <div className="w-full flex border-t-[1px] pt-10 mt-20">
         <div className="w-1/2">
-          <h1 className="text-3xl lg:text-6xl">My Resume</h1>
+          <h1 className="text-3xl lg:text-6xl">Resume</h1>
           <motion.button
             className="flex uppercase gap-10 items-center px-10 py-6 mt-10 rounded-full bg-black text-white"
             whileHover={{ scale: 1.05 }}

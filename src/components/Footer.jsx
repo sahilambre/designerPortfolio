@@ -4,7 +4,7 @@ import { FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-black text-white font-['Poppins'] py-8 px-4">
+    <footer className="w-full bg-lime-400 text-black font-['Poppins'] py-8 px-4">
       <div className="container mx-auto flex flex-col items-center justify-between space-y-6 md:flex-row md:space-y-0">
         {/* Let's Connect Section */}
         <motion.div
@@ -17,7 +17,7 @@ const Footer = () => {
           <p className="text-lg mb-4">Feel free to reach out to me!</p>
           <motion.a
             href="mailto:sahil01ambre@gmail.com"
-            className="text-blue-400 hover:underline"
+            className="text-sky-900 hover:underline"
           >
             sahil01ambre@gmail.com
           </motion.a>
@@ -34,7 +34,7 @@ const Footer = () => {
             href="https://linkedin.com/in/sahilambre"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-400 hover:text-blue-400 transition duration-300"
+            className="text-black hover:text-blue-500 transition duration-300"
           >
             <FaLinkedin size={24} />
           </a>
@@ -42,16 +42,16 @@ const Footer = () => {
             href="https://github.com/sahilambre"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-400 hover:text-white transition duration-300"
+            className="text-black hover:text-white transition duration-300"
           >
             <FaGithub size={24} />
           </a>
         </motion.div>
       </div>
-      <div className="text-center text-gray-400 mt-6">
+      <div className="text-center text-black mt-6">
         <p>
           &copy; {new Date().getFullYear()} Sahil Mukesh Ambre. All rights
-          reserved.
+          reserved 🚀
         </p>
       </div>
     </footer>

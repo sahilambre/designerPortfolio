@@ -11,7 +11,7 @@ const Projects = () => {
     <div className="w-full py-40">
       <div className="w-full px-20 border-b-[0.5px] pb-8">
         <motion.h1
-          className="text-black text-4xl lg:text-6xl font-['Poppins'] tracking-tight"
+          className="text-black text-4xl lg:text-6xl font-['Poppins'] tracking-tight flex justify-center"
           initial={{ opacity: 0, y: 20, color: "#000" }} // Initial state
           animate={{ opacity: 1, y: 0, color: "#000" }} // Final state
           whileHover={{
