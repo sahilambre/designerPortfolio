@@ -56,10 +56,10 @@ const HighlightedText = ({ text }) => {
 
 const Experience = () => {
   return (
-    <div className="w-full min-h-[60vh] flex flex-col items-center">
-      <div className="w-full px-5 lg:px-20 border-b-[0.5px] pb-8">
+    <div className="w-full min-h-[60vh] flex flex-col items-center bg-black">
+      <div className="w-full px-5 lg:px-20 border-b-[0.5px] border-gray-600 pb-8">
         <motion.h1
-          className="text-black text-4xl lg:text-6xl font-['Poppins'] tracking-tight"
+          className="text-white text-4xl lg:text-6xl font-['Poppins'] tracking-tight pt-10"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           whileHover={{
@@ -79,7 +79,7 @@ const Experience = () => {
           Experience.
         </motion.h1>
       </div>
-      <div className="w-full flex flex-col lg:flex-row justify-center items-center py-10 space-y-10 lg:space-y-0 lg:space-x-20">
+      <div className="w-full flex flex-col lg:flex-row justify-center items-center py-10 space-y-10 lg:space-y-0 lg:space-x-20 px-10">
         <motion.div
           className="flex flex-col items-center text-center border border-gray-300 rounded-3xl p-8 bg-white shadow-lg hover:shadow-2xl transform transition-all duration-300 ease-in-out"
           initial="hidden"
