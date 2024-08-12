@@ -64,7 +64,7 @@ const Navbar = () => {
       } bg-white bg-opacity-5 backdrop-blur-md`}
     >
       <motion.div
-        className="logo  text-4xl  font-['Founders_Grotesk_Text'] cursor-crosshair"
+        className="logo  text-4xl font-['Founders_Grotesk_Text'] cursor-crosshair"
         variants={logoVariants}
         animate="animate"
         style={{ textShadow: "0 0 5px rgba(0, 0, 0, 0)" }} // Initial textShadow
