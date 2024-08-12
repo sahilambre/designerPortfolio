@@ -64,7 +64,7 @@ const Navbar = () => {
       } bg-white bg-opacity-5 backdrop-blur-md`}
     >
       <motion.div
-        className="logo hidden text-4xl sm:block md:block font-['Founders_Grotesk_Text'] cursor-crosshair"
+        className="logo  text-4xl  font-['Founders_Grotesk_Text'] cursor-crosshair"
         variants={logoVariants}
         animate="animate"
         style={{ textShadow: "0 0 5px rgba(0, 0, 0, 0)" }} // Initial textShadow
@@ -75,7 +75,7 @@ const Navbar = () => {
         {["About", "Projects", "Work", "Contact"].map((item, index) => (
           <motion.a
             key={index}
-            className="text-xl md:text-xl lg:text-xl font-light font-['Founders_Grotesk_Text'] cursor-crosshair"
+            className="text-xl hidden sm:block md:block font-light font-['Founders_Grotesk_Text'] cursor-crosshair"
             variants={linkVariants}
             whileHover="hover"
           >
