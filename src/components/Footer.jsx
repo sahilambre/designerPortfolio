@@ -4,11 +4,7 @@ import { FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer
-      data-scroll
-      data-scroll-speed="-.1"
-      className="w-full bg-lime-400 text-black font-['Poppins'] py-8 px-4"
-    >
+    <footer className="w-full bg-lime-400 text-black font-['Poppins'] py-8 px-4">
       <div className="container mx-auto flex flex-col items-center justify-between space-y-6 md:flex-row md:space-y-0">
         {/* Let's Connect Section */}
         <motion.div

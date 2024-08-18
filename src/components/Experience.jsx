@@ -56,11 +56,7 @@ const HighlightedText = ({ text }) => {
 
 const Experience = () => {
   return (
-    <div
-      data-scroll
-      data-scroll-speed="-.1"
-      className="w-full min-h-[60vh] flex flex-col items-center bg-black pt-10 lg:mt-20"
-    >
+    <div className="w-full min-h-[60vh] flex flex-col items-center bg-black pt-10 ">
       <div className="w-full px-5 lg:px-20 border-b-[0.5px] pb-8">
         <motion.h1
           className="text-white text-4xl lg:text-6xl font-['Poppins'] tracking-tight flex justify-center"
