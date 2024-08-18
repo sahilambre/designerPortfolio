@@ -8,7 +8,7 @@ import { FaGithub } from "react-icons/fa";
 
 const Projects = () => {
   return (
-    <div data-scroll data-scroll-speed="-.1" className="w-full py-10 lg:mt-20">
+    <div data-scroll data-scroll-speed="-.1" className="w-full py-20 lg:mt-20">
       <div className="w-full px-20 border-b-[0.5px] pb-8">
         <motion.h1
           className="text-black text-4xl lg:text-6xl font-['Poppins'] tracking-tight flex justify-center"
