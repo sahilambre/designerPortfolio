@@ -59,7 +59,7 @@ const Experience = () => {
     <div className="w-full min-h-[60vh] flex flex-col items-center bg-black pt-10">
       <div className="w-full px-5 lg:px-20 border-b-[0.5px] pb-8">
         <motion.h1
-          className="text-white text-4xl lg:text-6xl font-['Poppins'] tracking-tight"
+          className="text-white text-4xl lg:text-6xl font-['Poppins'] tracking-tight flex justify-center"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           whileHover={{
@@ -79,9 +79,9 @@ const Experience = () => {
           Experience.
         </motion.h1>
       </div>
-      <div className="w-full flex flex-col lg:flex-row justify-center items-center py-10 space-y-10 lg:space-y-0 lg:space-x-20 ">
+      <div className="w-full flex flex-col lg:flex-row justify-center items-center px-8 py-10 space-y-10 lg:space-y-0 lg:space-x-20">
         <motion.div
-          className="flex flex-col items-center text-center border border-gray-300 rounded-3xl p-8 bg-white shadow-lg hover:shadow-2xl transform transition-all duration-300 ease-in-out "
+          className="flex flex-col items-center text-center border border-gray-300 rounded-3xl p-8 bg-white shadow-lg hover:shadow-2xl transform transition-all duration-300 ease-in-out px-4"
           initial="hidden"
           whileInView="visible"
           variants={cardVariants}
@@ -115,7 +115,7 @@ const Experience = () => {
           </motion.p>
         </motion.div>
         <motion.div
-          className="flex flex-col items-center text-center border border-gray-300 rounded-3xl p-8 bg-white shadow-lg hover:shadow-2xl transform transition-all duration-300 ease-in-out"
+          className="flex flex-col items-center text-center border border-gray-300 rounded-3xl p-8 bg-white shadow-lg hover:shadow-2xl transform transition-all duration-300 ease-in-out sm:px-4"
           initial="hidden"
           whileInView="visible"
           variants={cardVariants}
