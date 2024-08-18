@@ -71,7 +71,7 @@ const Navbar = () => {
       >
         Sahil.
       </motion.div>
-      <div className="links flex gap-10">
+      {/* <div className="links flex gap-10">
         {["About", "Projects", "Work", "Contact"].map((item, index) => (
           <motion.a
             key={index}
@@ -82,7 +82,7 @@ const Navbar = () => {
             {item}
           </motion.a>
         ))}
-      </div>
+      </div> */}
     </div>
   );
 };
