@@ -59,7 +59,7 @@ const Experience = () => {
     <div
       data-scroll
       data-scroll-speed="-.1"
-      className="w-full min-h-[60vh] flex flex-col items-center bg-black pt-10"
+      className="w-full min-h-[60vh] flex flex-col items-center bg-black pt-10 lg:mt-20"
     >
       <div className="w-full px-5 lg:px-20 border-b-[0.5px] pb-8">
         <motion.h1
