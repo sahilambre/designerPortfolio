@@ -31,8 +31,8 @@ const Projects = () => {
           My Projects.
         </motion.h1>
       </div>
-      <div className="px-20">
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 mt-10 px-10">
+      <div className="px-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 mt-10 px-0">
           <div className="card w-full">
             <motion.div
               className="flex justify-center items-center mb-4"
