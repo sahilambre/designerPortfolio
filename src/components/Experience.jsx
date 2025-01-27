@@ -104,14 +104,14 @@ const Experience = () => {
             whileHover={{ scale: 1.06, color: "#555" }}
             transition={{ duration: 0.3 }}
           >
-            <HighlightedText text="At Dezignolics Pvt. Ltd., Mumbai, India, I extensively trained in AI/ML concepts using Python. Achieved a 15% accuracy boost in house price prediction models through meticulous tuning and a 35% performance enhancement via advanced data processing and feature engineering." />
+            {/* <HighlightedText text="At Dezignolics Pvt. Ltd., Mumbai, India, I extensively trained in AI/ML concepts using Python. Achieved a 15% accuracy boost in house price prediction models through meticulous tuning and a 35% performance enhancement via advanced data processing and feature engineering." /> */}
           </motion.p>
           <motion.p
             className="text-gray-500 text-sm"
             whileHover={{ scale: 1.02, color: "#555" }}
             transition={{ duration: 0.3 }}
           >
-            February 2021 - July 2021
+            February 2020 - July 2021
           </motion.p>
         </motion.div>
         <motion.div
@@ -131,21 +131,55 @@ const Experience = () => {
             whileHover={{ scale: 1.1, color: "#ff6347" }}
             transition={{ duration: 0.3 }}
           >
-            Trivia Softwares
+            Vighnahara Engineering Solutions
           </motion.h2>
           <motion.p
             className="max-w-md text-gray-600 mt-2 mb-4"
             whileHover={{ scale: 1.06, color: "#555" }}
             transition={{ duration: 0.3 }}
           >
-            <HighlightedText text="At Trivia Softwares, Mumbai, India, I led Python application projects, integrating GUI and database connectivity. Developed a Student Management System using Tkinter, enhancing efficiency by 20% through intuitive design and functional implementation." />
+            {/* <HighlightedText text="At Trivia Softwares, Mumbai, India, I led Python application projects, integrating GUI and database connectivity. Developed a Student Management System using Tkinter, enhancing efficiency by 20% through intuitive design and functional implementation." /> */}
           </motion.p>
           <motion.p
             className="text-gray-500 text-sm"
             whileHover={{ scale: 1.02, color: "#555" }}
             transition={{ duration: 0.3 }}
           >
-            December 2019 - March 2020
+            August 2021 - July 2022
+          </motion.p>
+        </motion.div>
+        <motion.div
+          className="flex flex-col items-center text-center border border-gray-300 rounded-3xl p-8 bg-white shadow-lg hover:shadow-2xl transform transition-all duration-300 ease-in-out sm:px-4"
+          initial="hidden"
+          whileInView="visible"
+          variants={cardVariants}
+          whileHover={{
+            scale: 1.05,
+            boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.2)",
+            transition: { duration: 0.3 },
+          }}
+          viewport={{ once: true, amount: 0.8 }}
+        >
+          <motion.h2
+            className="text-2xl lg:text-3xl font-semibold text-gray-800 mt-4"
+            whileHover={{ scale: 1.1, color: "#ff6347" }}
+            transition={{ duration: 0.3 }}
+          >
+            The Yiddish Arts and Academics Association of North America
+          </motion.h2>
+          <motion.p
+            className="max-w-md text-gray-600 mt-2 mb-4"
+            whileHover={{ scale: 1.06, color: "#555" }}
+            transition={{ duration: 0.3 }}
+          >
+            {/* <HighlightedText text="At Trivia Softwares, Mumbai, India, I led Python application projects, integrating GUI and database connectivity. Developed a Student Management System using Tkinter, enhancing efficiency by 20% through intuitive design and functional implementation." /> */}
+          </motion.p>
+          <motion.p
+            className="text-gray-500 text-sm"
+            whileHover={{ scale: 1.02, color: "#555" }}
+            transition={{ duration: 0.3 }}
+          >
+            Auguest 2024 - Present
           </motion.p>
         </motion.div>
       </div>
